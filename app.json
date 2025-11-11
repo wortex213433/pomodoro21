@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Pomodoro21",
+    "slug": "pomodoro21",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pomodoro21.app"
+    },
+    "android": {
+      "package": "com.pomodoro21.app",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "227542a4-6fa1-4ee5-aa73-dec5d784e95d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/227542a4-6fa1-4ee5-aa73-dec5d784e95d"
+    },
+    "owner": "wortex213433",
+    "privacy": "public"
+  }
+}
