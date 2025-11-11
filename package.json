@@ -1,0 +1,36 @@
+{
+  "name": "pomodoro21",
+  "version": "1.0.0",
+  "description": "Modern, minimalist ve işlevsel Pomodoro zamanlayıcı uygulaması",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "react-native",
+    "expo",
+    "productivity",
+    "time-management"
+  ],
+  "author": "wortex213433",
+  "license": "MIT",
+  "dependencies": {
+    "expo": "54.0.21",
+    "expo-build-properties": "~1.0.9",
+    "expo-status-bar": "~3.0.8",
+    "expo-updates": "~29.0.12",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-svg": "15.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "eas-cli": "^16.26.0",
+    "babel-preset-expo": "^54.0.7"
+  }
+}
